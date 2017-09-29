@@ -27,3 +27,7 @@ zipkin:
       password: changeme
 server:
   port: 8080
+spring: 
+  cloud: 
+    config: 
+      allowOverride: true
