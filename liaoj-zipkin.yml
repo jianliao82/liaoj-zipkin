@@ -1,3 +1,4 @@
+spring.zipkin.service.name: 
 endpoints:
   restart:
     enabled: true
@@ -21,7 +22,7 @@ zipkin:
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: http://40.125.201.3:29200/
+      hosts: http://40.125.201.3:29200
       username: 123
       password: 456
 server:
