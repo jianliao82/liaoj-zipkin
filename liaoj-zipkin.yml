@@ -24,3 +24,5 @@ zipkin:
       hosts: http://40.125.201.3:29200/
       username: 123
       password: 456
+server:
+  port: 8080
