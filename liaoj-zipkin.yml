@@ -13,3 +13,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://172.22.0.5:8748/eureka/
+      
+zipkin:
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      hosts: http://40.125.201.3:29200/
+      username: 123
+      password: 456
