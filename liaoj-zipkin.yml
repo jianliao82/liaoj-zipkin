@@ -22,8 +22,8 @@ zipkin:
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: http://40.125.201.3:29200
-      username: 123
-      password: 456
+      hosts: http://172.22.0.6:9200
+      username: elastic
+      password: changeme
 server:
   port: 8080
